@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-hw10",
+  "version": "6.6.6",
+  "description": "GoIT JavaScript Homework No.10",
+  "homepage": "https://github.com/MuffMuffin/goit-js-hw-10",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuffMuffin/goit-js-hw-10.git"
+  },
+  "keywords": [],
+  "author": "MuffMuffin, Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuffMuffin/goit-js-hw-10/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
