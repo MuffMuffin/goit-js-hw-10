@@ -7,6 +7,22 @@
   border: solid 2px #666;
 }
 
+#search-box::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+#search-box::-moz-placeholder {
+  color: #ccc;
+}
+
+#search-box:-ms-input-placeholder {
+  color: #ccc;
+}
+
+#search-box::-ms-input-placeholder {
+  color: #ccc;
+}
+
 #search-box::placeholder {
   color: #ccc;
 }
@@ -39,6 +55,7 @@
   align-items: center;
   width: 510px;
   height: 105px;
+  -webkit-filter: drop-shadow(0 0 4px #212121);
   filter: drop-shadow(0 0 4px #212121);
 }
 
